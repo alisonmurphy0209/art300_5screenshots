@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    background-color: #F2E8DC;
+    margin: 0;
+    padding: 0;
+}   
+
+.header-top {
+    height: 21px;
+    background-color: #9A8FBF;
+}
+.header-second {
+    height: 49px ;
+    background-color: #050259;
+}
+.header-mainphoto {
+    height:490px ;
+    background-color: #F2DC9B;
+}
+
+.top {
+    height:356px;
+    background-color: #F2E8DC;
+    display: grid;
+    grid-template-areas:
+    "icon1 icon2 icon3 icon4";
+    
+}
+
+.top-icon1 {
+
+    background-color: #BF8D30;
+    grid-area: "icon1";
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+.top-icon1 {
+
+    background-color: #BF8D30;
+    grid-area: "icon1";
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 100px;
+}
+
+.top-icon2 {
+
+    background-color: #BF8D30;
+    grid-area: "icon2";
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 100px;
+}
+
+.top-icon3 {
+    background-color: #BF8D30;
+    grid-area: "icon3";
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 100px;
+
+}
+
+.top-icon4 {
+    background-color:  #BF8D30;
+    grid-area: "icon4";
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 100px;
+}
+.single {
+    height: 354px;
+    background-color: white;
+    display: grid;
+    grid-template-areas: "";
+}
+.single-largesubphoto {
+    height: 354px;
+    width: 770px;
+    background-color: #9A8FBF;
+    
+    
+}
+.single-largephotocaption {
+    height: 350px;
+    width: 290px;
+    background-color: #F2DC9B;
+}
+
+
