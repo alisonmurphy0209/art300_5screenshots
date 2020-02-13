@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    border: solid 5px white;
+    margin: 30px;
+    grid-gap: 30px;
+    margin: 30px;
+    padding: 30px;
+
+}
+.parent .child {
+    border: solid white 5px;
+    padding: 30px;
+    display: grid;
+    grid-gap:10px ;
+
+}
+.child .grand-child {
+    border: solid white 5px;
+    height: 100px;
+    padding: 30px;
+    
+}

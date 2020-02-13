@@ -1,0 +1,154 @@
+body {
+    background-color: white;
+}
+.header {
+    background-color: #F2B705;
+    height: 200px;
+    position: relative;
+}
+.header .top-tabs {
+    background-color: #049DBF;
+    height: 20px;
+    width: 600px;
+    position: absolute ;
+    top: 20px;
+    left: 250px;
+}
+
+.header .search-bar {
+    background-color: #F2E205;
+    height: 100px;
+    width: 1500px;
+    position: absolute;
+    top:60px ;
+}
+.header .lower-tab {
+    background-color: #049DBF;
+    height: 20px;
+    width: 600px;
+    position: absolute ;
+    top: 175px;
+    left: 250px;
+}
+.main-pic {
+    height: 400px;
+    background-color: #F294B6;
+}
+.top-tabs {
+    background-color: #F2B705;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.top-tabs div {
+    background-color: #F29494;
+    margin: 50px;
+}
+.gallery-top {
+    background-color: #F2B705;
+    height: 300px;
+    display: grid;
+    grid-template-areas: 
+    "top-pic1 top-pic2 top-pic3 right-ad";
+}
+.gallery-top .top-pic1 {
+    background-color:#049DBF ;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.gallery-top .top-pic2 {
+    background-color:#049DBF ;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+.gallery-top .top-pic3 {
+    background-color:#049DBF ;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+.gallery-top .right-ad {
+    background-color: #F2E205;
+    height: 275px;
+    width: 200px;
+    margin: 20px;
+}
+.gallery-second {
+    display: grid;
+    background-color:#F2B705;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+    grid-gap: 30px; 
+}
+.gallery-second .left-ad {
+    background-color:#F294B6 ;
+    padding: 30px;
+    height: 300px;
+}
+.gallery-second-pic .pic {
+    height: 150px;
+    background-color: #049DBF;
+
+}
+.gallery-second-pic .caption {
+    height: 30px;
+    background-color:  #F2E205;
+    margin-top: 20px;
+}
+.center-search-bar {
+    height: 35px;
+    background-color:#F294B6; 
+}
+.center-gallery {
+    background-color: #F2B705;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    padding: 100px;
+    grid-gap: 10px;
+}
+.center-gallery .logo {
+    height: 200px;
+    background-color: #F2E205;
+}
+.center-gallery .caption {
+    height: 50px;
+    background-color: #049DBF;
+}
+.large-pic {
+    background-color:#F294B6;
+    height: 300px;
+}
+.lower-gallery {
+    background-color:#F294B6 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+    grid-gap: 10px;
+
+}
+.lower-gallery .small-pic {
+    background-color: #049DBF;
+    height: 200px;
+    padding: 10px;
+}
+.lower-gallery .small-caption {
+    height: 50px ;
+    background-color: #F2E205;
+    padding: 10px;
+}
+.bottom-bar {
+    background-color:#F2B705;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+}
+.bottom-bar div {
+   margin: 100px;
+    background-color: #F294B6;
+}
+
+
+
+

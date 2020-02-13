@@ -1,0 +1,415 @@
+body {
+    font-family: sans-serif;
+    background-color:#BF7154;
+}
+.header {
+    background-color: #2C3540;
+    height: 60px;
+    position: relative;
+    align-items: center;
+}
+.header .search-bar {
+    background: #B6DBF2;
+    height: 20px;
+    width: 1000px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.ad-bar {
+    background-color: #BF7154;
+    height: 205px;
+    position: relative;
+}
+.ad-bar .top-ad-bar {
+    position: absolute;
+    height: 50px;
+    width: 750px;
+    left: 200px;
+    top: 10px;
+    background-color:#04ADBF ;
+}
+.ad-bar .logo {
+    position: absolute;
+    height: 50px;
+    width: 500px;
+    top: 80px;
+    left: 300px;
+    background-color: #A62121;
+}
+.ad-bar .tab-bar {
+    position: absolute;
+    height: 20px;
+    width: 1000px;
+    bottom: 10px;
+    left: 90px;
+    background-color:#2C3540;
+}
+.main-quiz {
+    height: 300px;width: 500px;
+    background: #BF7154;
+    position: relative;
+}
+.main-quiz .main-quizbg {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    background-color: #2C3540;
+    left: 200px;
+    display: grid;
+    grid-template-areas: 
+    "main-quiz-pic1 main-quiz-pic2"
+    
+
+}
+.main-quizbg .main-quiz-pic1 {
+    grid-area: main-quiz-pic1;
+    background-color: #A62121;
+    height: 200px;
+    width: 155px;
+    z-index: 2;
+    margin: 10px;
+    padding: 10px;
+}
+.main-quizbg .main-quiz-pic2 {
+    grid-area: main-quiz-pic2;
+    height: 200px;
+    width: 155px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #A62121;
+}
+.twin-quiz {
+    background-color:#BF7154;
+    height: 100px;
+    position: relative;
+
+}
+.twin-quiz .twin-quizbg {
+    position: absolute;
+    height: 90px;
+    width: 400px;
+    background-color:#2C3540 ;
+    top: 10px;
+    left: 200px;
+    display: grid;
+    grid-template-areas: "twin-quiz-pic1 twin-quiz-pic2 twin-quiz-text"
+}
+.twin-quiz .twin-quiz-pic1 {
+   grid-area: twin-quiz-pic1;
+   background-color:#A62121 ;
+   height: 70px;
+   width: 70px;
+   z-index: 1;
+   margin: 1px;
+   padding: 10px;
+}
+.twin-quiz .twin-quiz-pic2 {
+    grid-area: twin-quiz-pic2;
+    background-color:#A62121 ;
+    height: 70px;
+    width: 70px;
+    z-index: 1;
+    margin: 1px;
+    padding: 10px;
+}
+.twin-quiz .twin-quiz-text {
+    grid-area: twin-quiz-text;
+    background-color:#BF7154 ;
+    height: 70px;
+    width: 120px;
+    z-index: 1;
+    margin: 1px;
+    padding: 10px;
+}
+.ads{
+    background-color:#BF7154;
+    height: 150px;
+    display: grid;
+    margin: 50px;
+    grid-template-areas: 
+    ".horizontal-left-ad horizontal-right-ad";
+}
+.ads .horizontal-left-ad {
+        background-color: #04ADBF;
+        height: 90px;
+        grid-area:horizontal-left-ad;
+        width: 400px;
+        top: 60px;
+        left: 200px;
+}
+.ads .horizontal-right-ad {
+    background-color:#A62121;
+    height: 55px;
+    grid-area: horizontal-right-ad;
+    width: 400px;
+    top: 60px;
+    left: 600px;
+}
+.twin-quiz2 {
+    background-color:#BF7154;
+    height: 100px;
+    position: relative;
+
+}
+.twin-quiz2 .twin-quizbg2 {
+    position: absolute;
+    height: 90px;
+    width: 400px;
+    background-color:#2C3540 ;
+    top: 10px;
+    left: 200px;
+    display: grid;
+    grid-template-areas: "twin-quiz-pic3 twin-quiz-pic4 twin-quiz-text2"
+}
+.twin-quiz2 .twin-quiz-pic3 {
+   grid-area: twin-quiz-pic3;
+   background-color:#A62121 ;
+   height: 70px;
+   width: 70px;
+   z-index: 1;
+   margin: 1px;
+   padding: 10px;
+}
+.twin-quiz2 .twin-quiz-pic4 {
+    grid-area: twin-quiz-pic4;
+    background-color:#A62121 ;
+    height: 70px;
+    width: 70px;
+    z-index: 1;
+    margin: 1px;
+    padding: 10px;
+}
+.twin-quiz2 .twin-quiz-text2 {
+    grid-area: twin-quiz-text2;
+    background-color:#BF7154 ;
+    height: 70px;
+    width: 120px;
+    z-index: 1;
+    margin: 1px;
+    padding: 10px;
+}
+.quiz-packs {
+    background-color:#BF7154 ;
+    height: 450px;
+    position: relative;
+}
+.quiz-packs .quiz-pack-bg {
+    background-color: #B6DBF2;
+    height:400px ;
+    width: 450px;
+    position: absolute;
+    left: 150px;
+    top: 1px;
+    z-index: 1;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.quiz-packs div {
+    background-color: #2C3540;
+}
+.grid{
+    height: 330px;
+    background-color:#BF7154;
+    position: relative;
+}
+.grid .grid-frame {
+    background-color: #BF7154;
+    height:300px ;
+    width: 400px;
+    position: absolute;
+    left: 190px;
+    top: 1px;
+    z-index: 1;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns:1fr 1fr  ;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap: 10px;
+}
+.grid div {
+    background-color:#2C3540 ;
+}
+
+.triplets {
+    background-color:  #BF7154;
+    height: 350px;
+    position: relative;
+}
+.triplets .triplets-bg {
+    background-color: #2C3540;
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    left: 170px;
+    grid-gap: 1px;
+    display: grid;
+    grid-template-areas:
+     "triplet-pic1 triplet-text1" 
+     "triplet-pic2 triplet-text2"
+     "triplet-pic3 triplet-text3";
+}
+.triplets .triplet-pic1 {
+    background-color: #04ADBF;
+    height: 80px;
+    width: 110;
+    grid-area: triplet-pic1;
+    margin: 1px;
+    padding: 1px;
+}
+.triplets .triplet-pic2 {
+    background-color: #04ADBF;
+    height: 80px;
+    width: 110;
+    grid-area: triplet-pic2;
+    margin: 1px;
+    padding: 1px;
+}
+.triplets .triplet-pic3 {
+    background-color: #04ADBF;
+    height: 80px;
+    width: 110;
+    grid-area: triplet-pic3;
+    margin: 1px;
+    padding: 1px;
+}
+.triplets .triplet-text1 {
+    height: 50px;
+    width: 250px;
+    background: #BF7154;
+    grid-area: triplet-text1;
+    margin: 10px;
+    padding: 10px;
+}
+.triplets .triplet-text2 {
+    height: 50px;
+    width: 250px;
+    background: #BF7154;
+    grid-area: triplet-text2;
+    margin: 10px;
+    padding: 10px;
+}
+.triplets .triplet-text3 {
+    height: 50px;
+    width: 250px;
+    background: #BF7154;
+    grid-area: triplet-text3;
+    margin: 10px;
+    padding: 10px;
+}
+.quads {
+    height: 100px;
+    background-color: #BF7154;
+    position: relative;
+}
+.quads .quadsbg {
+    height: 100px;
+    width: 550px;
+    position: absolute;
+    left: 150px;
+    background-color:#A62121 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.quads div {
+    background-color: #2C3540;
+    height: 100px;
+}
+.triplets-bottom {
+    background-color:  #BF7154;
+    height: 350px;
+    position: relative;
+    margin: 10px;
+}
+.triplets-bottom .triplets2-bg {
+    background-color: #2C3540;
+    position: absolute;
+    height: 290px;
+    margin: 10pl;
+    width: 500px;
+    left: 170px;
+    grid-gap: 1px;
+    display: grid;
+    grid-template-areas:
+     "triplet-pic-bottom1 triplet-text-bottom1" 
+     "triplet-pic-bottom2 triplet-text-bottom2"
+     "triplet-pic-bottom3 triplet-text-bottom3";
+}
+.triplets-bottom .triplet-pic-bottom1 {
+    background-color:#B6DBF2;
+    height: 80px;
+    width: 110;
+    grid-area: triplet-pic-bottom1;
+    margin: 1px;
+    padding: 1px;
+}
+.triplets-bottom .triplet-pic-bottom2 {
+    background-color: #B6DBF2;
+    height: 80px;
+    width: 110;
+    grid-area: triplet-pic-bottom2;
+    margin: 1px;
+    padding: 1px;
+}
+.triplets-bottom .triplet-pic-bottom3 {
+    background-color: #B6DBF2;
+    height: 80px;
+    width: 110;
+    grid-area: triplet-pic-bottom3;
+    margin: 1px;
+    padding: 1px;
+}
+.triplets-bottom .triplet-text-bottom1 {
+    height: 50px;
+    width: 250px;
+    background: #BF7154;
+    grid-area: triplet-text-bottom1;
+    margin: 10px;
+    padding: 10px;
+}
+.triplets-bottom .triplet-text-bottom2 {
+    height: 50px;
+    width: 250px;
+    background: #BF7154;
+    grid-area: triplet-text-bottom2;
+    margin: 10px;
+    padding: 10px;
+}
+.triplets-bottom .triplet-text-bottom3 {
+    height: 50px;
+    width: 250px;
+    background: #BF7154;
+    grid-area: triplet-text-bottom3;
+    margin: 10px;
+    padding: 10px;
+}
+.quiz-list {
+    background-color: #BF7154;
+    height: 1100px;
+    position: relative;
+}
+.quiz-list .quiz-list-bg {
+    background-color: #04ADBF;
+    position: absolute;
+    height:1200px;
+    width: 500px;
+    left: 170px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.quiz-list div {
+    background-color: #A62121;
+    margin: 1px;
+}
+
+
+
+
